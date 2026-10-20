@@ -1,6 +1,272 @@
 @import "tailwindcss";
 
-ActionBar {
-    background-color: #65adf1;
-    color: white;
+Page {
+  background-color: #f1f0ea;
+  color: #20251f;
+}
+
+.page {
+  padding: 22 22 38;
+}
+
+.masthead {
+  padding-bottom: 15;
+  border-bottom-width: 1;
+  border-bottom-color: #222820;
+}
+
+.masthead-brand,
+.masthead-index,
+.hero-eyebrow,
+.hero-foot-text,
+.section-index,
+.section-note,
+.load-label,
+.method-heading,
+.method-stamp,
+.method-command {
+  font-family: Menlo, monospace;
+  font-weight: 700;
+}
+
+.masthead-brand {
+  font-size: 11;
+}
+
+.masthead-index {
+  font-size: 9;
+  color: #747a71;
+}
+
+.hero {
+  margin-top: 22;
+  padding: 22 21 19;
+  background-color: #212b25;
+  color: #f5f1e7;
+}
+
+.hero-eyebrow {
+  color: #e9a47d;
+  font-size: 9;
+  vertical-align: middle;
+}
+
+.hero-arrow {
+  color: #e9a47d;
+  font-family: Menlo, monospace;
+  font-size: 13;
+  font-weight: 700;
+}
+
+.hero-title {
+  margin-top: 25;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 800;
+  font-size: 31;
+}
+
+.hero-title-next {
+  margin-top: 0;
+}
+
+.hero-description {
+  margin-top: 12;
+  color: #c3c9be;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 13;
+}
+
+.hero-result {
+  margin-top: 30;
+  margin-bottom: 23;
+}
+
+.hero-number {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 82;
+  font-weight: 700;
+}
+
+.hero-unit {
+  margin-left: 7;
+  vertical-align: bottom;
+  padding-bottom: 8;
+}
+
+.hero-times {
+  font-family: "Avenir Next", sans-serif;
+  color: #eeaa84;
+  font-size: 39;
+  font-weight: 700;
+}
+
+.hero-faster {
+  color: #eeaa84;
+  font-family: Menlo, monospace;
+  font-size: 10;
+  font-weight: 700;
+}
+
+.hero-foot {
+  padding-top: 13;
+  border-top-width: 1;
+  border-top-color: #526056;
+}
+
+.hero-foot-text {
+  color: #aeb8aa;
+  font-size: 9;
+}
+
+.section-heading {
+  margin-top: 35;
+}
+
+.section-index {
+  color: #a3472d;
+  font-size: 10;
+}
+
+.section-note {
+  color: #989b91;
+  font-size: 9;
+}
+
+.section-title {
+  margin-top: 9;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 24;
+  font-weight: 700;
+}
+
+.section-caption {
+  margin-top: 2;
+  color: #7a8077;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 12;
+}
+
+.first-measure {
+  margin-top: 21;
+}
+
+.measure {
+  margin-bottom: 17;
+}
+
+.measure-name {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 14;
+  font-weight: 700;
+}
+
+.measure-value {
+  font-family: Menlo, monospace;
+  font-size: 13;
+  font-weight: 700;
+}
+
+.bar-track {
+  margin-top: 8;
+  height: 10;
+  background-color: #dcded6;
+}
+
+.bar {
+  height: 10;
+  horizontal-align: left;
+}
+
+.bar-rust {
+  background-color: #b94f2f;
+}
+
+.bar-go {
+  background-color: #73827a;
+}
+
+.memory-heading {
+  margin-top: 23;
+  padding-top: 24;
+  border-top-width: 1;
+  border-top-color: #d3d5cc;
+}
+
+.workload {
+  margin-top: 28;
+  padding: 21 0 23;
+  border-top-width: 1;
+  border-bottom-width: 1;
+  border-color: #222820;
+}
+
+.load-main {
+  margin-top: 17;
+}
+
+.load-number {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 64;
+  font-weight: 700;
+}
+
+.load-copy {
+  margin-left: 16;
+  vertical-align: middle;
+}
+
+.load-label {
+  font-size: 10;
+}
+
+.load-detail {
+  margin-top: 6;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 13;
+  color: #727a6f;
+}
+
+.load-frameworks {
+  margin-top: 10;
+  color: #7b8076;
+  font-family: Menlo, monospace;
+  font-size: 10;
+}
+
+.method {
+  margin-top: 27;
+}
+
+.method-heading {
+  font-size: 10;
+  color: #a3472d;
+}
+
+.method-line {
+  margin-top: 9;
+  font-family: Menlo, monospace;
+  font-size: 11;
+}
+
+.method-detail {
+  margin-top: 14;
+  color: #7a8077;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 12;
+}
+
+.method-bottom {
+  margin-top: 24;
+  padding-top: 14;
+  border-top-width: 1;
+  border-top-color: #d3d5cc;
+}
+
+.method-stamp,
+.method-command {
+  font-size: 9;
+}
+
+.method-command {
+  color: #a3472d;
 }

@@ -1,0 +1,92 @@
+{
+  "recordedAt": "2026-10-20T18:00:48.669Z",
+  "machine": {
+    "cpu": "Apple M3 Max",
+    "platform": "Darwin arm64",
+    "node": "v26.10.0"
+  },
+  "workload": {
+    "config": "tsconfig.bench.json",
+    "checkers": 4,
+    "repetitions": 7,
+    "nativeDeclarations": 47,
+    "nativeDeclarationMiB": 16.4,
+    "includesVueSfc": false,
+    "skipLibCheck": true
+  },
+  "compilers": {
+    "tsrs": {
+      "version": "7.1.0-dev.20260930.4 (tsrs 0.18.0-ts7.1.0-dev.20260929, microsoft/TypeScript@b85298b6a81f)",
+      "medianMs": 170.5,
+      "medianPeakRssMiB": 226,
+      "samples": [
+        {
+          "ms": 177.6,
+          "peakRssMiB": 226.3
+        },
+        {
+          "ms": 166,
+          "peakRssMiB": 226.4
+        },
+        {
+          "ms": 163.7,
+          "peakRssMiB": 226
+        },
+        {
+          "ms": 170.5,
+          "peakRssMiB": 226.4
+        },
+        {
+          "ms": 175.8,
+          "peakRssMiB": 225.9
+        },
+        {
+          "ms": 172.7,
+          "peakRssMiB": 226
+        },
+        {
+          "ms": 170,
+          "peakRssMiB": 225.9
+        }
+      ],
+      "files": 471
+    },
+    "tsgo": {
+      "version": "7.1.0-beta",
+      "medianMs": 327.8,
+      "medianPeakRssMiB": 399.8,
+      "samples": [
+        {
+          "ms": 338.6,
+          "peakRssMiB": 403.4
+        },
+        {
+          "ms": 320.9,
+          "peakRssMiB": 399.8
+        },
+        {
+          "ms": 319,
+          "peakRssMiB": 399.6
+        },
+        {
+          "ms": 310.8,
+          "peakRssMiB": 398.5
+        },
+        {
+          "ms": 338.9,
+          "peakRssMiB": 403.7
+        },
+        {
+          "ms": 335.3,
+          "peakRssMiB": 403.3
+        },
+        {
+          "ms": 327.8,
+          "peakRssMiB": 399.5
+        }
+      ],
+      "files": 474
+    }
+  },
+  "speedup": 1.92
+}

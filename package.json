@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "check:tsrs": "tsrs -p tsconfig.bench.json --noEmit --checkers 4",
+    "check:tsgo": "node node_modules/typescript-benchmark/bin/tsc -p tsconfig.bench.json --noEmit --checkers 4",
+    "bench": "node scripts/benchmark.mjs"
   },
   "dependencies": {
     "@nativescript/core": "~9.1.1",
@@ -23,7 +26,9 @@
     "@vue/compiler-sfc": "^3.5.44",
     "postcss": "^8.5.31",
     "tailwindcss": "^4.3.3",
+    "tsrs": "0.18.0-ts7.1.0-dev.20260929",
     "typescript": "~6.0.3",
+    "typescript-benchmark": "npm:typescript@7.1.0-beta",
     "vite": "^8.3.4",
     "vue": "^3.5.44",
     "vue-tsc": "^3.3.13"
