@@ -7,5 +7,10 @@ export default {
   android: {
     v8Flags: '--expose_gc',
     markingMode: 'none'
-  }
+  },
+  cli: {
+    additionalPathsToClean: ['.ns-vite-build']
+  },
+  bundler: 'vite',
+  bundlerConfigPath: 'vite.config.mts'
 } as NativeScriptConfig;
